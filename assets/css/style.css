@@ -61,7 +61,7 @@ text-align: center;
 header .container .left-side nav ul a {
 text-decoration: none;
 text-transform: capitalize;
-color: black;
+color: var(--Grey-15, #262626);
 text-align: center;
 font-size: 16px;
 }
@@ -95,6 +95,7 @@ border: none;
 text-align: center;
 background-color: inherit;
 min-width: 80px;
+color: var(--Grey-15, #262626);
 }
 /* End of header section */
 /* -----------------------------------------------------------*/
@@ -268,6 +269,7 @@ td:last-child {
     font-weight: 500;
     font-size: 18px;
     min-width: 100px;
+    color: var(--Grey-15, #262626);
 }
 .Benefits .container .tittle button:hover {
    background-color:  var(--Orange-50, #FF9500); }
@@ -363,6 +365,7 @@ td:last-child {
     align-self: flex-end;
     font-weight: 500;
     font-size: 18px;
+    color: var(--Grey-15, #262626);
 }
 .Our-courses .container .tittle button:hover {
     background-color:  var(--Orange-50, #FF9500); }
@@ -462,6 +465,7 @@ border: 1.5px solid var(--Orange-50, #FF9500);}
     align-self: flex-end;
     font-weight: 500;
     font-size: 18px;
+    color: var(--Grey-15, #262626);
 }
 .Our-testimonials .container .tittle button:hover {
     background-color:  var(--Orange-50, #FF9500); }
@@ -510,6 +514,7 @@ gap: 5px;
  border-radius: 8px;
  border: 1px solid #F1F1F3;
  background-color: var(--White-97, #F7F7F8);
+ color: var(--Grey-15, #262626);
 }
 .Our-testimonials .cards .card .heading button:hover{
     background-color: var(--Orange-50, #FF9500);
@@ -560,6 +565,7 @@ gap: 5px;
     border: none;
     font-size: 20px;
     background-color: inherit;
+    color: var(--Grey-15, #262626);
    }
    .Our-Pricing .container .tittle .buttons button:first-of-type{
     border-radius: 6px;
