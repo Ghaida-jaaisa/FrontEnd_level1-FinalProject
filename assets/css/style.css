@@ -516,6 +516,7 @@ gap: 5px;
  border-radius: 8px;
  border: 1px solid #F1F1F3;
  background-color: var(--White-97, #F7F7F8);
+color: var(--Grey-15, #262626);
 }
 .Our-testimonials .cards .card .heading button:hover{
     background-color: var(--Orange-50, #FF9500);
