@@ -123,16 +123,31 @@ header .container .row {
 }
 @media screen and (max-width:575px) {
   .introduction .tittle .heading { 
-    font-size: 15px;
-  }
-  .introduction p:first-of-type{
-    font-size: 15px;
-  }
-  .introduction p:last-of-type{
     font-size: 14px;
   }
+  .introduction p:first-of-type{
+    font-size: 14px;
+  }
+  .introduction p:last-of-type{
+    font-size: 13px;
+  }
   .introduction { 
-    padding: 100px 90px;
+    padding: 100px 40px;
+  }
+}
+@media screen and (max-width:400px) {
+  .introduction .tittle .heading { 
+    font-size: 12px;
+    padding: 5px 2px;
+  }
+  .introduction p:first-of-type{
+    font-size: 11px;
+  }
+  .introduction p:last-of-type{
+    font-size: 10px;
+  }
+  .introduction { 
+    padding: 100px 40px;
   }
 }
   /*---------------------------------------------------------------------*/ 
@@ -401,6 +416,7 @@ padding: 15px 5px;
 /* responsive for all screens */ 
 @media screen and (max-width:5000px) {
   header .container ,
+  .introduction .container , 
   .logos .container ,
   .image .container,
   .Benefits .container ,
@@ -413,6 +429,7 @@ padding: 15px 5px;
 }
 @media screen and (max-width:1200px) {
   header .container ,
+  .introduction .container , 
   .logos .container ,
   .image .container,
   .Benefits .container ,
@@ -425,6 +442,7 @@ padding: 15px 5px;
 }
 @media screen and (max-width:1000px) {
   header .container ,
+  .introduction .container , 
   .logos .container ,
   .image .container,
   .Benefits .container ,
@@ -437,6 +455,7 @@ padding: 15px 5px;
 }
 @media screen and (max-width:300px) {
   header .container ,
+  .introduction .container , 
   .logos .container ,
   .image .container,
   .Benefits .container ,
