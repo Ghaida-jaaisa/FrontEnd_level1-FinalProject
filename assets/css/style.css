@@ -482,6 +482,7 @@ border: 2px solid #F1F1F3;
 justify-content: space-between;
 border-radius: 10px;
 background-color: #fff;
+height: fit-content;
 }
 .Our-testimonials .cards .card:hover { 
 border: 1.5px solid var(--Orange-50, #FF9500); }
@@ -680,7 +681,7 @@ footer .content {
     row-gap: 30px;
 align-items: flex-start;
 text-align: left;
-height: 450px;
+height: 300px;
 }
 /*copy-right section */
 footer .container .copy-right {

@@ -169,14 +169,19 @@ td:nth-last-of-type(3){
       td:nth-last-of-type(7){
         display: none;
       }}
-      @media screen and (max-width:400px) {
+      @media screen and (max-width:410px) {
         .logos table {
-          padding:5px;
+          padding:10px;
+        }
+        .logos td img {
+          width: 100%;
+          padding: 0 5px;
         }
       }
 /*--------------------------------------------------------------*/ 
 /*Benifts section */ 
 @media screen and (max-width:1030px) {
+  /* 2 items by column */
   .Benefits .container .cards { 
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(3 , 1fr)
@@ -193,6 +198,7 @@ td:nth-last-of-type(3){
   }
 }
 @media screen and (max-width:750px) { 
+  /* item by column */ 
   .Benefits .container .cards { 
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(6 , 1fr)
@@ -205,11 +211,22 @@ td:nth-last-of-type(3){
   }
   .Benefits .container .tittle div {
 gap: 100px;
-}}
-@media screen and (max-width:750px) { 
+}
+.Benefits .container .tittle h2{
+  font-size: 30px;
+}
+.Benefits .container .cards .card p:first-of-type { 
+  font-size: 45px;
+}
 .Benefits .container .tittle div {
   gap: 20px; 
-}}
+}
+}
+@media screen and (max-width:500px) { 
+  .Benefits .container .cards .card p:first-of-type {
+    font-size: 40px;
+  }
+}
 /*----------------------------------------------------------------------------------*/
 /* Couses Section */ 
 @media screen and (max-width:1060px) {
@@ -228,6 +245,12 @@ gap: 100px;
 .Our-courses .container .information  p { 
 font-size: 22px; 
 font-weight: 500;
+ }
+ .Our-courses .container .tittle h2 {
+  font-size: 30px;
+ }
+ .Our-courses .container .courses .course .information {
+  gap: 15px;
  }
 }
 @media screen and (max-width:1030px) {
@@ -252,6 +275,9 @@ font-weight: 500;
   .Our-testimonials .cards .card p:first-child { 
     padding: 40px;
   }
+  .Our-testimonials .container .tittle h2 { 
+    font-size: 30px;
+  }
 }
 @media screen and (max-width:1030px) {
   .Our-testimonials .container .tittle div {
@@ -269,6 +295,31 @@ font-weight: 500;
   .Our-testimonials .cards .card .heading button {
 padding: 15px 5px;
 }}
+@media screen and (max-width:450px) {
+  .Our-testimonials .cards .card .heading { 
+    font-size: 12px;
+  }
+  .Our-testimonials .cards .card .heading button {
+    font-size: 12px;
+    padding: 10px 5px;
+  }
+  .Our-testimonials .cards .card img {
+    width: 50px;
+  }
+  .Our-testimonials .cards .card p:first-child {
+    font-size: 14px;
+  }
+  .Our-testimonials .container .tittle h2 { 
+    font-size: 25px;
+  }
+}
+@media screen and (max-width:360px) {
+  .Our-testimonials .cards .card .heading{
+    flex-direction: column;
+    gap: 10px;
+    align-items: flex-start;
+  }
+}
 /*------------------------------------------------------------------*/ 
 /* Pricing section */ 
 @media screen and (max-width:1009px) {
@@ -295,7 +346,34 @@ padding: 15px 5px;
 } 
 .Our-Pricing .container .cards .card ul{
   padding: 10px 15px;
-}}
+}
+.Our-Pricing .container .tittle h2 {
+  font-size: 30px;
+}
+.Our-Pricing .container .tittle .buttons button{
+  font-size: 14px;
+}
+}
+@media screen and (max-width:450px) {
+  .Our-Pricing .container .cards .card li { 
+    font-size:small ;
+  } 
+  .Our-Pricing .container .cards .card .features h4 {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width:360px ){
+  .Our-Pricing .container .cards {
+    padding: 15px;
+  }
+  .Our-Pricing .container .cards .card {
+    padding: 20px 10px;
+  }
+  .Our-Pricing .container .cards .card li {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+}
 /*-------------------------------------------------------------*/ 
 /* Footer Section */ 
 @media screen and (max-width:800px) {
@@ -303,8 +381,9 @@ padding: 15px 5px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(3, 1fr);
     column-gap: 5px;
-    row-gap: 20px;
+    row-gap: 40px;
     justify-items: flex-start;
+    height: 330px;
   }
   footer .container .left-side{
     grid-row: 1;
@@ -339,9 +418,9 @@ padding: 15px 5px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(4, 1fr);
     column-gap: 5px;
-    row-gap: 20px;
+    row-gap: 35px;
     justify-items: flex-start;
-    height: 650px;
+    height: 500px;
   }
   footer .container .left-side{
     grid-row: 1;
@@ -377,9 +456,9 @@ padding: 15px 5px;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(5, 1fr);
     column-gap: 5px;
-    row-gap: 20px;
+    row-gap: 35px;
     justify-items: center;
-    height: 750px;
+    height: 700px;
   }
   footer .container .left-side{
     grid-row: 1;
