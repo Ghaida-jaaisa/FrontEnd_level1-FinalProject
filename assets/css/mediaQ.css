@@ -544,7 +544,7 @@ width: 30px;  }
     .Our-testimonials .container ,
     .Our-Pricing .container ,
       footer .container {
-    width:(100% - 50px)
+    width:calc(100% - 50px);
   }
 
   .image .container .row img{
