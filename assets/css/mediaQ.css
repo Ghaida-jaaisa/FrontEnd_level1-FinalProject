@@ -265,6 +265,11 @@ font-weight: 500;
     align-self: flex-start;
   }
 }
+@media screen and (max-width:370px) {
+  .Our-courses .container .courses .course {
+    padding: 20px;
+  }
+}
 /*-----------------------------------------------------------*/ 
 /* Testimonial section */ 
 @media screen and (max-width:1000px) {
