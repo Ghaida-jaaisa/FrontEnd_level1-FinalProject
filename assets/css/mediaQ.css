@@ -369,10 +369,12 @@ padding: 15px 5px;
   .Our-Pricing .container .cards .card {
     padding: 20px 10px;
   }
-  .Our-Pricing .container .cards .card li {
-    flex-direction: column;
-    align-items: flex-start;
-  }
+ .Our-Pricing .container .cards .card li img{
+padding: 5px;
+width: 30px;  }
+.Our-Pricing .container .cards .card li p {
+  font-size:10px ; 
+}
 }
 /*-------------------------------------------------------------*/ 
 /* Footer Section */ 
